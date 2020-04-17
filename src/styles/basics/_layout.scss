@@ -1,0 +1,13 @@
+.container {
+     max-width: $normal-breakpoint;
+    margin: 0 auto;
+    padding: 0 10px;   
+}
+
+// GRIDS
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    grid-gap: 10px;
+}

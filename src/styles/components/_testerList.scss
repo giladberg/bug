@@ -1,0 +1,14 @@
+.tester-list {
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+    border: none;
+
+    thead {
+        font-size: rem(20px);
+        color: $clr6;
+        width: 100%;
+        background: $clr5;
+        padding: 20px 0;
+    }
+}

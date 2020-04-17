@@ -1,0 +1,7 @@
+.testerPreview{
+    padding: 20px 0;
+    font-size: rem(18px);
+    &:nth-of-type(odd) {
+		background:#EEEEEE;
+	}
+}
