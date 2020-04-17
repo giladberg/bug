@@ -16,7 +16,6 @@ export default class Home extends Component {
     }
     onSearchTester = async (testerName) => {
         const isSuccessed = await testerService.searchTester(testerName)
-        console.log(isSuccessed)
         if(!isSuccessed){
             eventBusService.emit('modal', {type:'danger',txt:'Temporary error occurred, please try again later'});
         }else{
